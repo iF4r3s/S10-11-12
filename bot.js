@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot10 = new Discord.Client();
 const ID = '505101712839671838';
 
-bot7.on('ready', () => {
+bot10.on('ready', () => {
   console.log(`Starting....`);
 });
 
