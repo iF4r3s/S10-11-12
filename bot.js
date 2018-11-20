@@ -36,7 +36,7 @@ bot10.on('message', message => {
   if(!args) return message.channel.send(`:angry: | What do you want us to say?`);
   if(message.content.startsWith(`f10`)){
     if(message.author.id !== "505101712839671838") return;
-    message.channel.send(args.join(" ")).then(msg => msg.delete(3000));
+    message.channel.send(args.join(" "))
   }
 });
 
@@ -76,7 +76,7 @@ bot11.on('message', message => {
   if(!args) return message.channel.send(`:angry: | What do you want us to say?`);
   if(message.content.startsWith(`f11`)){
     if(message.author.id !== "505101712839671838") return;
-    message.channel.send(args.join(" ")).then(msg => msg.delete(3000));
+    message.channel.send(args.join(" "))
   }
 });
 
@@ -116,7 +116,7 @@ bot12.on('message', message => {
   if(!args) return message.channel.send(`:angry: | What do you want us to say?`);
   if(message.content.startsWith(`f12`)){
     if(message.author.id !== "505101712839671838") return;
-    message.channel.send(args.join(" ")).then(msg => msg.delete(3000));
+    message.channel.send(args.join(" "))
   }
 });
 
